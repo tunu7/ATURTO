@@ -5,8 +5,8 @@ const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   return (
-    <nav className="bg-gray-900 text-white w-full px-4 md:px-6 py-3 sticky top-0 z-50 shadow-md">
-      <div className="container mx-auto flex items-center justify-between px-20">
+    <nav className="bg-gray-900 text-white w-full px-2 md:px-3 py-3 sticky top-0 z-50 shadow-md">
+      <div className="container mx-auto flex items-center justify-between px-10">
         {/* Left Navigation Links */}
         <div className="hidden md:flex items-center space-x-4">
           <Link
@@ -53,7 +53,7 @@ const Navbar = () => {
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
         >
           <svg
-            className="w-6 h-6 text-white"
+            className=" w-6 h-6 text-white"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"

@@ -2,7 +2,7 @@ import HeroBanner from '../components/HeroBanner';
 import Card from '../components/Card';
 
 const Home = () => (
-  <div className="relative flex flex-col items-center justify-center text-white px-4 sm:px-8 md:px-12 lg:px-16 w-full h-full">
+  <div className="relative flex flex-col items-center justify-center text-white px-4 sm:px-4 md:px-6 lg:px-8 w-full h-full">
     <HeroBanner />
 
     {/* Upcoming Fights Section */}
