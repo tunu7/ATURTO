@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import Events from './pages/Events';
 import Fighters from './pages/Fighters';
 import About from './pages/About';
+import EventDetail from './components/EventDetail';
 
 const App = () => (
   <Router>
@@ -14,6 +15,7 @@ const App = () => (
       <Route path="/events" element={<Events />} />
       <Route path="/fighters" element={<Fighters />} />
       <Route path="/about" element={<About />} />
+      <Route path="/events/:eventId" element={<EventDetail />} />
     </Routes>
     <Footer />
   </Router>
